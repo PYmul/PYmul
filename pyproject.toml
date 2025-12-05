@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymul"
+version = "0.1.0"
+description = "Universal Python Manager"
+authors = [{ name = "Kaleo Vital Alves", email = "pymul.tech@gmail.com"}]
+readme = "README.md"
+license = { text = "MIT" }
+requires-Python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/PYmul/PYmul"
