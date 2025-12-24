@@ -1,0 +1,6 @@
+import subprocess
+from pymul.managers.base import BaseManager
+
+class PipManager(BaseManager):
+    def install(self, package):
+        subprocess.run(["pip", "install", package])
