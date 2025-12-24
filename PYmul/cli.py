@@ -1,4 +1,4 @@
- pymul/
+pymul/
 │
 ├── pymul/
 │   ├── __init__.py
